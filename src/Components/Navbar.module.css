@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background : blue;
+}
+.navbar>a{
+    padding: 7px 21px;
+    text-decoration: none;
+    color: white;
+}
+.navbar>a:hover{
+    background : purple;
+}
+.navbar>div{
+    padding: 7px 25px;
+    color : yellow;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.logoutBtn{
+    padding: 7px 21px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.logoutBtn:hover{
+    background: purple;
+}

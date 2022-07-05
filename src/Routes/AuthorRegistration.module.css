@@ -1,0 +1,25 @@
+.authorRegistrationDiv>div{
+    display : flex;
+    flex-direction: column;
+    /* width : 25%; */
+    gap : 30px;
+}
+
+.authorRegistrationDiv>div>input{
+    height: 30px;
+}
+.authorRegistrationDiv{
+    width: 25%;
+    margin: 50px auto;
+}
+.authorRegistrationDiv>h1{
+    width: fit-content;
+    margin: 20px auto;
+}
+.authorRegistrationDiv>p>a{
+    text-decoration: none;
+}
+.authorRegistrationDiv>p{
+    width: fit-content;
+    margin: 40px auto;
+}
